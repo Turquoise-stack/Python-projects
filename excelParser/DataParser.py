@@ -28,7 +28,7 @@ class DataParser:
                 continue
 
             parsed_row = {}
-
+#
             for i in range(len(group)):
                 if i == 0:
                     # Title will be capitalized and cleaned from special characters and numbers.
